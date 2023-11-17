@@ -1,0 +1,17 @@
+USER admin
+PASS admin
+DPIN 2168 
+LOAD movies.txt
+PLAY 5
+REGU rui,rui
+UPDA rui,BASIC
+UPDA rui,VIP
+UPDA rui,FREE
+LOGO
+USER rui
+PASS rui
+UPDP mao,mao
+AMFA 1234567890
+LIST
+PLAY 8
+QUIT
